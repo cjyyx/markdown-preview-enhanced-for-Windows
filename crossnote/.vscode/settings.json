@@ -1,0 +1,6 @@
+{
+    "code-runner.executorMap": {
+        "JavaScript" : "python make.py",
+        "javascript" : "python make.py",
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "name": "crossnote",
+    "bin": "./crossnote.js",
+    "dependencies": {
+        "commander": "^11.0.0"
+    }
+}
