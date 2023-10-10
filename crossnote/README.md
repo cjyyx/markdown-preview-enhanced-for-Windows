@@ -6,8 +6,14 @@
 npm install -g pkg
 ```
 
-使用Commander处理NodeJS命令行参数
+<!-- 使用Commander处理NodeJS命令行参数
 
 ```bash
 npm i commander 
+``` -->
+
+安装 crossnote
+
+```bash
+npm install crossnote
 ```

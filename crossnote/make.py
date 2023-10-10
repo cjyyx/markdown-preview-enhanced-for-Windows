@@ -1,7 +1,9 @@
 import os
 
+dir_path = os.path.dirname(os.path.abspath(__file__)).replace('\\','/')
+
 print("开始编译")
-os.system("pkg . -t=node18-win-x64 --out-path=.")
+os.system("pkg . -t=node18-win-x64 --out-path=./dist")
 
 print("开始测试")
 
@@ -9,7 +11,4 @@ def test(cmd):
     print("测试命令：", cmd)
     os.system(cmd)
 
-test("crossnote.exe -h")
-test("crossnote.exe README.md")
-test("crossnote.exe README.md --open_in_brower")
-test("crossnote.exe README.md --output_html D:\\test.html")
+test(f"dist\crossnote.exe {dir_path}/testCase/离散数学复习重点.md")
