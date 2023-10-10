@@ -1,7 +1,0 @@
-{
-    "name": "crossnote",
-    "bin": "./crossnote.js",
-    "dependencies": {
-        "crossnote": "^0.8"
-    }
-}

@@ -12,4 +12,5 @@ def test(cmd):
     os.system(cmd)
 
 # test(f"dist\crossnote.exe {dir_path}/testCase/离散数学复习重点.md")
-test(f"node crossnote.js {dir_path}/testCase/离散数学复习重点.md")
+# test(f"node crossnote.js {dir_path}/testCase/离散数学复习重点.md")
+test(f"{dir_path}/crossnote.cmd {dir_path}/testCase/离散数学复习重点.md")

@@ -27,7 +27,7 @@ async function main() {
     // open in browser
     await engine.openInBrowser({ runAllCodeChunks: true });
 
-    await new Promise(resolve => setTimeout(resolve, 10000));
+    await new Promise(resolve => setTimeout(resolve, 5000));
 
     return process.exit();
 }
