@@ -1,0 +1,5 @@
+{
+    "code-runner.executorMap": {
+        "javascript" : "python run.py && echo code-runner",
+    }
+}

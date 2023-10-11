@@ -1,2 +1,2 @@
-crossnote/node_modules
-crossnote/dist
+**/node_modules
+crossnote.exe

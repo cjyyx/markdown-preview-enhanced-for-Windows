@@ -1,0 +1,8 @@
+{
+    "code-runner.executorMap": {
+        "c" : "python make.py && echo code-runner",
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+}

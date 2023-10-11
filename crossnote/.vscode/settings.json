@@ -1,5 +1,0 @@
-{
-    "code-runner.executorMap": {
-        "javascript" : "python make.py && echo code-runner",
-    }
-}

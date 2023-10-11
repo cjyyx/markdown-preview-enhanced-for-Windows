@@ -1,0 +1,1 @@
+cd crossnote-js && npm install crossnote

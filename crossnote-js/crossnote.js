@@ -1,3 +1,5 @@
+console.log("run crossnote.js...");
+
 const { Notebook } = require('crossnote');
 
 // console.log(process.argv);
