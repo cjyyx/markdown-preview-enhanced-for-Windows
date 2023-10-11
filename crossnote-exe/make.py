@@ -17,7 +17,7 @@ if not debug_mode:
     exit(0)
 
 print("开始编译")
-if os.system(f"gcc crossnote.c -o {ddir_path}/crossnote.exe"):
+if os.system(f"gcc crossnote.c resource.res -o {ddir_path}/crossnote.exe"):
     print("编译失败")
     exit(1)
 

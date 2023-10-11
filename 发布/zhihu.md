@@ -19,3 +19,8 @@
 ## 原理
 
 crossnote 是一个 nodeJS 包，提供一个 api 可以把 markdown 文件解析为 html 文件并用浏览器打开。于是可以写一个 js 脚本，查看 markdown 文件。我使用 gcc 构建了一个 Windows 应用程序，该程序调用 node 运行 js 脚本，从而实现查看 markdown 文件。
+
+## TODO
+
+- 将 crossnote 封装为命令行程序
+- 无法解析文件名带有空格的markdown文件

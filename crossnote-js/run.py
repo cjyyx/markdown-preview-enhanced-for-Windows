@@ -13,4 +13,4 @@ def test(cmd):
     os.system(cmd)
     print("")
 
-test(f"node {dir_path}/crossnote.js {ddir_path}/testCase/离散数学复习重点.md")
+test(f"node {dir_path}/crossnote.js {ddir_path}/testCase/线性时不变系统.md")
